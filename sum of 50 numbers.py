@@ -1,4 +1,4 @@
-num=int(1)
-for i in range(1):
-     total=(sum(range(1,51)))
-     print (f"The of 50 number is {total}")
+total_sum=0
+for i in range(1,51):
+    total_sum=total_sum+i
+print(f"the sum of 50 number is {total_sum}")
